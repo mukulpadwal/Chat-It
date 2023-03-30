@@ -104,7 +104,7 @@ const handleSubmit = async (event) => {
 
     // Make our call to api
 
-    const response = await fetch("http://localhost:3000", {
+    const response = await fetch("https://chatit-zisq.onrender.com", {
         method: 'POST',
         headers: {
             "Content-Type": "application/json",
